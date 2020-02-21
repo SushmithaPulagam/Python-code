@@ -1,0 +1,13 @@
+# To import pandas library and read a file
+import pandas as pd
+df = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv")
+#To get the first 5 records
+df.head()
+#To get the last 5 records
+df.tail()
+#To get total number of rows and columns in the dataset
+df.shape()
+#To find what all columns it contains, of what types and if they contain any value in it or not.
+df.info()
+#To find the count, mean, standard deviation, minimum and maximum values and the quantities of the data.
+df.describe()
