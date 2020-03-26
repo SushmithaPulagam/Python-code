@@ -1,0 +1,34 @@
+Deep Learning Tutorial
+---------------------------
+
+What is AI - capability of a machine to iitate intelligent human behaviour
+
+Applications of AI - Speech Recognition, NLP, Image recognization
+
+What is ML - Subset of AI.Make the computers learn.
+Limitations of ML - cannot deal with huge data. cannot deal with feature extractions.
+
+Deep learning is implemented through Neural Networks.
+DL skips the manual steps of extracting features, we can directly feed the images to the DL algorithm which then predicts the object.
+
+Keras
+_________
+
+Keras is a wrapper and it can work on top of Tensorflow or Theano or CNTK.
+CNTK - Microsoft Deeplearning tool kit
+Tensorflow - Google made it. In Tensorflow, we need to start a sessions and write some code. But in Keras, the code lines will get reduced.
+
+Drawback of keras : The model built in keras may not be available to deploy in all the platforms. So ,we might end up doing the model from scratch in Tensorflow for deployment. 
+
+It is recommeneded that to do POC's in keras and once it is successful, build the same with Tensorflow for deployment.
+
+Keras  supports both convolutinal networks and recurrent networks , as well as combination oftwo.
+Run seamlessly on CPU and GPU.
+
+Keras sequential models
+______________________________
+
+
+
+
+
